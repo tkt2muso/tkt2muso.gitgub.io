@@ -1,0 +1,86 @@
+.header{
+    width: 100%;
+    
+}
+.header-nav{
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul li{
+    margin-right: 50px;
+}
+
+.header-title{
+    font-weight: bold;
+}
+.content-wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+main .main-img img{
+    max-width: 100%;
+   
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.section-img{
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 24px;
+    padding:40px 0;
+    text-align: center;
+}
+.section-img-r{
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0 auto;
+    right:0;
+}
+.otoiawase-p{
+    text-align: center;
+}
+.email{
+    display: flex;
+    width: 400px;
+    height:40px;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: solid 3px gainsboro;
+}
+button{
+    
+    background-color: indianred;
+    color: white;
+    border: none;
+}
+.otoiawase{
+    text-align: center;
+}
+.button-div{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.border{
+    border-top:solid 3px gainsboro;
+}
+small{
+    margin: 20px 10px;
+    float: right;
+}
